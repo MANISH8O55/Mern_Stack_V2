@@ -78,7 +78,7 @@ const ProductScreen = () => {
       ) : (
         <>
           <Meta title={product.name} description={product.description} />
-          <Row className='bod'>
+          <Row>
             <Col md={6}>
               <Image src={product.image} alt={product.name} fluid />
             </Col>
