@@ -1,0 +1,154 @@
+main {
+  min-height: 80vh;
+  background: linear-gradient(to bottom, #a8e4e8, #42969f);
+}
+
+.navbar {
+  background-color: rgb(36, 36, 36);
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.rating svg {
+  color: #f8e825;
+  
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.product-title {
+  height: 2.5em;
+  /* Set a fixed height */
+  overflow: hidden;
+  /* Hide overflow content */
+  text-overflow: ellipsis;
+  /* Add ellipsis for long text */
+  white-space: nowrap;
+  /* Prevent wrapping */
+}
+
+table td,
+table th {
+  text-align: center;
+}
+
+.review {
+  margin-top: 30px;
+}
+
+.rev{
+  width: 204%;
+}
+
+.review h2 {
+  font-size: 24px;
+  background: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.review button {
+  margin-top: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.home {
+  text-align: center;
+  color: rgb(36, 36, 36);
+  font-variant: normal;
+  font-variant-caps: all-petite-caps;
+  font-stretch: extra-expanded;
+}
+
+.carousel-item {
+  border: 1px;
+  /* Add a black border */
+  background: linear-gradient(to right, #737877, #7c8e8e, #e0e4e4);
+  padding: 10px;
+  /* Adjust padding as needed */
+}
+
+.bod {
+  background: linear-gradient(to right, #2b2b2b, #4c4d4c, #908d8d);
+  /* Replace these color values with your desired gradient colors */
+  border: 1px solid #ddd;
+  /* Replace this color value with your desired border color */
+  padding-top: 10px;
+  padding-right: px;
+  padding-bottom: 10px;
+  padding-left: px;
+}
+
+.back {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration-color: black;
+    text-align: center;
+    text-decoration: none;
+    font-variant-caps: all-petite-caps;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    top: -14px;
+    width: 100%;
+    
+}
+
+.back:hover {
+    background-color: #a2a7a7;
+}
+
+@media only screen and (max-width: 600px) {
+    .back {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+.sub{
+  display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration-color: black;
+    text-align: center;
+    text-decoration: none;
+    font-variant-caps: all-petite-caps;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+    bottom: -3px;
+    width: 100%;
+
+}
+
+.sub:hover {
+  background-color: #a2a7a7;
+}
+
+@media only screen and (max-width: 600px) {
+  .sub {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+}
